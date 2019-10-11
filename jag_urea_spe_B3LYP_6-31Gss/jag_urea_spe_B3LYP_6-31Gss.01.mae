@@ -1,0 +1,120 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_f3d_flags
+ r_f3d_energy
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ r_j_Gas_Phase_Energy
+ r_j_HOMO
+ r_j_LUMO
+ i_m_ct_format
+ :::
+ urea 
+  1 
+  entry 
+  0
+  0
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo 
+  urea.mae 
+  1
+  1
+  "Single Point" 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.in 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.01.in 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.01.mae 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.out 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.log 
+  /Users/haoyuyu/Documents/Schrodinger/Jaguar/pKa_program/NEW_LAD/recursive_stereo/jag_urea_spe_B3LYP_6-31Gss/jag_urea_spe_B3LYP_6-31Gss.mae 
+  DFT(b3lyp) 
+  6-31g** 
+  80
+  -225.261115048231
+  -0.237784590037345
+  0.059075892462307
+  2
+ m_depend[14] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 20 i_m_Spin_multiplicity 
+  2 20 s_j_Task 
+  3 20 s_j_Jaguar_input_file 
+  4 20 s_j_Jaguar_restart_input_file 
+  5 20 s_j_Jaguar_restart_mae_file 
+  6 20 s_j_Jaguar_output_file 
+  7 20 s_j_Jaguar_log_file 
+  8 20 s_j_Jaguar_mae_file 
+  9 20 s_j_QM_Method 
+  10 20 s_j_QM_Basis 
+  11 20 i_j_Number_of_canonical_orbitals 
+  12 20 r_j_Gas_Phase_Energy 
+  13 20 r_j_HOMO 
+  14 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[8] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  r_j_ESP_Charges
+  :::
+  1 2 0.000000 0.000000 -0.086999 900 2 0.96747 0.96747 6 A0A0A0  C1  %NE  5 ""  0.967465113253234
+  2 25 0.000000 1.107676 0.647263 900 43 -0.96289 -0.96289 7 5757FF  N2  %NE  5 ""  -0.962890304966258
+  3 25 0.000000 -1.107676 0.647263 900 43 -0.96289 -0.96289 7 5757FF  N3  %NE  5 ""  -0.962890304966258
+  4 15 0.000000 0.000000 -1.312655 900 70 -0.60914 -0.60914 8 FF2F2F  O4  %NE  5 ""  -0.609137487519855
+  5 43 0.000000 2.049618 0.286437 900 21 0.39571 0.39571 1 FFFFFF  H5  %NE  5 ""  0.395713050247371
+  6 43 0.000000 1.142152 1.654599 900 21 0.38801 0.38801 1 FFFFFF  H6  %NE  5 ""  0.388013441852198
+  7 43 0.000000 -2.049618 0.286437 900 21 0.39571 0.39571 1 FFFFFF  H7  %NE  5 ""  0.395713050247371
+  8 43 0.000000 -1.142152 1.654599 900 21 0.38801 0.38801 1 FFFFFF  H8  %NE  5 ""  0.388013441852198
+  :::
+ } 
+ m_bond[7] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 2 5 1
+  5 2 6 1
+  6 3 7 1
+  7 3 8 1
+  :::
+ } 
+} 
+

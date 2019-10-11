@@ -1,0 +1,10 @@
+Name: 'jag_urea_spe_B3LYP_6-31Gss_2'
+JobId: 'Haoyus-MacBook-Pro-3-0-5da09e9a'
+Commandline: '/opt/schrodinger/suites2018-2/jaguar run -jobname=jag_urea_spe_B3LYP_6-31Gss_2 jag_urea_spe_B3LYP_6-31Gss_2.in -HOST localhost -PARALLEL 2 -PROJ /var/folders/0p/01ddr7yj7pl293p0h3lc4qrw0000gn/T/haoyuyu/tproj51188a47444 -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED'
+BackendCmdline: 'run jexec.py -jobname jag_urea_spe_B3LYP_6-31Gss_2 -PARALLEL 2 jag_urea_spe_B3LYP_6-31Gss_2.in'
+Outfiles:
+- "jag_urea_spe_B3LYP_6-31Gss_2.01.mae"
+- "jag_urea_spe_B3LYP_6-31Gss_2.log"
+- "jag_urea_spe_B3LYP_6-31Gss_2.01.in"
+- "jag_urea_spe_B3LYP_6-31Gss_2.recover"
+- "jag_urea_spe_B3LYP_6-31Gss_2.out"

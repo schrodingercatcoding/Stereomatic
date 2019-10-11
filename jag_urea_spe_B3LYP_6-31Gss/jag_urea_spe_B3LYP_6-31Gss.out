@@ -1,0 +1,272 @@
+Job jag_urea_spe_B3LYP_6-31Gss started on Haoyus-MacBook-Pro-3.local at Fri Oct 11 11:23:58 2019
+jobid: Haoyus-MacBook-Pro-3-0-5da09e8c
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 10.0, release  11                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Leif Jacobson, Jean-Marc Langlois,                    |
+  |  Daniel Mainz, Rob Murphy, Dean Philipp, Tom Pollard,              |
+  |  Murco Ringnalda, Mark Watson, Haoyu Yu.                           |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 10.0, Schrodinger, Inc., New York, NY, 2018.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+  
+  start of program pre
+  
+[running at reduced cpu priority]
+  Job name: jag_urea_spe_B3LYP_6-31Gss
+  Executables used: /opt/schrodinger/suites2018-2/jaguar-v10.0/bin/Darwin-x86_64
+  Temporary files : /Users/haoyuyu/.schrodinger/tmp/jag_urea_spe_B3LYP_6-31Gss#Haoyus-MacBook-Pro-3-0-5da09e8c
+  Maestro file (input):  jag_urea_spe_B3LYP_6-31Gss.mae
+  Maestro file (output): jag_urea_spe_B3LYP_6-31Gss.01.mae
+  
+  basis set:             6-31g**                         
+  net molecular charge:    0
+  multiplicity:            1
+  
+  Using up to   2 threads per process
+  
+  number of basis functions....           80
+  
+ Input geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1            0.1920250000      0.2841400000      0.2541020000 
+  N2            1.2995520000     -0.2775000000     -0.2192190000 
+  N3           -0.4404140000      1.0241070000     -0.6506400000 
+  O4           -0.2044920000      0.1353050000      1.4042560000 
+  H5            1.9226320000     -0.8747450000      0.3028150000 
+  H6            1.6525160000     -0.1754330000     -1.1577880000 
+  H7           -1.2969590000      1.5337190000     -0.4954760000 
+  H8           -0.1416050000      1.1666870000     -1.6026370000 
+   
+  principal moments of inertia:
+        amu*angstrom^2:       45.06786       45.45910       90.52696
+                g*cm^2: 7.48369375E-39 7.54866019E-39 1.50323539E-38
+   
+  rotational constants:
+               cm^(-1):      0.37404989      0.37083068      0.18621667
+                   GHz:     11.21373360     11.11722424      5.58263519
+   
+  Molecular weight:      60.03 amu
+   
+  Stoichiometry: CN2H4O
+  Molecular Point Group: C2v     
+	Molecule translated to center of mass 
+	Molecule reoriented along symmetry axes
+  Point Group used: C2v
+  
+  
+ Symmetrized geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1            0.0000000000      0.0000000000     -0.0869994303 
+  N2            0.0000000000      1.1076762323      0.6472632541 
+  N3            0.0000000000     -1.1076762323      0.6472632541 
+  O4            0.0000000000      0.0000000000     -1.3126550966 
+  H5            0.0000000000      2.0496178648      0.2864369177 
+  H6            0.0000000000      1.1421522326      1.6545988484 
+  H7            0.0000000000     -2.0496178648      0.2864369177 
+  H8            0.0000000000     -1.1421522326      1.6545988484 
+   
+  nuclear repulsion energy.......     125.561928940 hartrees
+ 
+ Non-default options chosen:
+   SCF calculation type: DFT(b3lyp)                  
+   DFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+   Electrostatic potential fit to point charges on atomic centers
+  
+ Temporary integer options set:
+     73=  2
+  
+  end of program pre
+   
+ Time(pre)  user:        0.6  user+sys:        0.6  wallclock:        0.9
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    2.916E-03
+  number of canonical orbitals.....           80
+  end of program onee
+   
+ Time(onee)  user:        0.4  user+sys:        0.4  wallclock:        0.3
+  
+  start of program hfig
+  
+  initial wavefunction generated automatically from atomic wavefunctions
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  A1                35          8
+  A2                 8          1
+  B1                12          2
+  B2                25          5
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  end of program hfig
+   
+ Time(hfig)  user:        0.3  user+sys:        0.3  wallclock:        0.2
+  
+  start of program probe
+  
+  end of program probe
+   
+ Time(probe)  user:        0.3  user+sys:        0.3  wallclock:        0.2
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        4
+  fine          0        0        1
+  ultrafine     4        2        4
+  charge       -1        3        4
+  gradient      4        2        4
+  density       0        0        1
+  DFT-fine    -11        4        4
+  DFT-med.    -10        5        4
+  DFT-grad    -12        6        4
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        4
+  LMP2-grad     2        1        4
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       N2       N3       O4       H5       H6       H7
+  grid # 1       34       57        0       44       68       65        0
+  grid # 2      119      180        0      171      264      257        0
+  grid # 3       75       91        0      443      747      622        0
+  grid # 4     1395     2430        0     1395     2430     2430        0
+  grid # 5      480      756        0      480      756      756        0
+  grid # 6     1733     3001        0     1733     3001     3001        0
+   
+  number of gridpoints: 
+     atom        H8    total
+  grid # 1        0      268
+  grid # 2        0      991
+  grid # 3        0     1978
+  grid # 4        0    10080
+  grid # 5        0     3228
+  grid # 6        0    12469
+   
+  end of program grid
+   
+ Time(grid)  user:        0.3  user+sys:        0.3  wallclock:        0.3
+  
+  start of program rwr
+  
+  end of program rwr
+   
+ Time(rwr)  user:        0.5  user+sys:        0.5  wallclock:        0.4
+  
+  start of program scf
+  
+ number of electrons..........         32
+ number of alpha electrons....         16
+ number of beta electrons.....         16
+ number of orbitals, total....         80
+ number of doubly-occ'd orbs..         16
+ number of open shell orbs....          0
+ number of occupied orbitals..         16
+ number of virtual orbitals...         64
+ number of hamiltonians.......          1
+ number of shells.............          1
+ SCF type: DFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  5  M    -224.44559012956           1.5E-02  2.2E-01
+etot    2  Y  Y  6  M    -224.92978089429  4.8E-01  1.1E-02  1.8E-01
+etot    3  Y  Y  6  M    -225.14153682607  2.1E-01  5.6E-03  1.0E-01
+etot    4  N  Y  2  U    -225.25072343441  1.1E-01  1.9E-03  1.9E-02
+etot    5  Y  Y  6  M    -225.26085929560  1.0E-02  7.9E-04  4.7E-03
+etot    6  N  Y  2  U    -225.26107049297  2.1E-04  1.5E-04  1.5E-03
+etot    7  Y  Y  6  M    -225.26110950117  3.9E-05  2.7E-05  5.2E-04
+etot    8  N  N  2  U    -225.26111504823  5.5E-06  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     125.56192894013
+   (E)  Total one-electron terms.....    -555.30048066325
+   (I)  Total two-electron terms.....     204.47743667489
+   (J)    Coulomb....................     233.91596107055
+   (K)    Exchange+Correlation.......     -29.43852439566
+   (L)  Electronic energy............    -350.82304398836  (E+I)
+   (N)  Total energy.................    -225.26111504823  (A+L)
+   (O)  Gas phase energy.............    -225.26111504823
+  
+ SCFE: SCF energy: DFT(b3lyp)      -225.26111504823 hartrees   iterations:   8
+  
+ 
+ HOMO energy:    -0.23778
+ LUMO energy:     0.05908
+ 
+  Orbital energies (hartrees)/symmetry label: 
+   -19.07624 A1        -14.34532 B2        -14.34531 A1        -10.29680 A1     
+    -1.02725 A1         -0.91631 A1         -0.87628 B2         -0.63505 A1     
+    -0.55614 B2         -0.52729 A1         -0.46570 B2         -0.42024 B1     
+    -0.38601 A1         -0.26373 A2         -0.24657 B1         -0.23778 B2     
+     0.05908 A1          0.09475 B1          0.11023 A1          0.11119 B2     
+     0.15950 B2          0.29371 A1          0.34018 A1          0.45992 B2     
+     0.55959 A1          0.56623 B2     
+ 
+  end of program scf
+   
+ Time(scf)  user:        1.9  user+sys:        1.9  wallclock:        1.3
+  
+  start of program ch
+  
+  gridpoints used for charge fit         1916
+    out of a possible maximum of         1978
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               no 
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           N2           N3           O4           H5      
+ Charge    0.96747     -0.96289     -0.96289     -0.60914      0.39571
+   
+ Atom       H6           H7           H8      
+ Charge    0.38801      0.39571      0.38801
+  
+  sum of atomic charges:     0.000000
+   
+ RMS Error   6.30E-04 hartrees
+ 
+  end of program ch
+   
+ Time(ch)  user:        0.7  user+sys:        0.7  wallclock:        0.5
+
+ Total cpu seconds     user:       3.455   user+sys:       3.455
+  
+ Total elapsed time:    6 seconds
+
+Job jag_urea_spe_B3LYP_6-31Gss completed on Haoyus-MacBook-Pro-3.local at Fri Oct 11 11:24:04 2019
